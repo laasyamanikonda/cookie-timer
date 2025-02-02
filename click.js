@@ -2,12 +2,12 @@ let images = document.querySelectorAll(".img");
 
 images.forEach(function(img) {
     img.addEventListener("mousedown", function() {
-      img.style.width = "175px"; // Shrink the image
+        let currentWidth = img.offsetWidth; 
+        img.style.width = (currentWidth - 25) + "px"; 
     });
-  
-    img.addEventListener("mouseup", function() {
-      img.style.width = "200px"; // Restore to original size
-    });
-  
 
-  });
+    img.addEventListener("mouseup", function() {
+        let currentWidth = img.offsetWidth; 
+        img.style.width = (currentWidth + 25) + "px"; 
+    });
+});

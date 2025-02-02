@@ -1,8 +1,9 @@
-.html{
-background-color: #795845;
-border-color: #5E4435;
-
+html{
+background-color: #AC7B5F;
+border: 20px solid #5E4435;
+size: 1000px;
 }
+
 .button 
 {
     background-color: #1c87c9; 
@@ -14,8 +15,9 @@ border-color: #5E4435;
     text-decoration: none; 
     display: inline-block; 
     font-size: 20px; 
-    margin: 4px 2px; 
-    cursor: pointer; }
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
 img{
 width: 200px;
@@ -24,6 +26,35 @@ display: block;
 }
 caption{
 font-size: 12px;
-color: white;
+color: black;
 }
+.img-container{
+    display: flex; /* Align images in a row */
+    justify-content: center; /* Center the images */
+    gap: 20px; /* Space between images */
+
+
+}
+.img-actual{
+    text-align: center; /* Center the text below each image */
+}
+#sugar {
+    width: 180px; /* Make sugar cookie slightly smaller */
+  }
+  
+  #chocoChip {
+    width: 250px; /* Make chocolate chip slightly bigger */
+  }
+  
+  #oatmealChoc {
+    width: 195px; /* Adjust oatmeal cookie */
+  }
+  
+  #gingerbread {
+    width: 200px; /* Keep this normal */
+  }
+  
+  #custom {
+    width: 210px; /* Custom cookie slightly larger */
+  }
 
