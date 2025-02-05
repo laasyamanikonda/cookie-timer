@@ -1,15 +1,15 @@
 html{
 background-color: #AC7B5F;
-border: 20px solid #5E4435;
-size: 1000px;
+/*border: 20px solid #5E4435;*/
+/* 6986A1 for the jar */
 }
 
-.button 
+.button
 {
-    background-color: #1c87c9; 
+    background-color: hsl(203, 76%, 45%); 
     border: white; 
     border-radius: 5px;
-    color: rgb(59, 46, 46); 
+    color: white; 
     padding: 20px 34px; 
     text-align: center; 
     text-decoration: none; 
@@ -17,6 +17,32 @@ size: 1000px;
     font-size: 20px; 
     margin: 4px 2px;
     cursor: pointer;
+    align-self: center;
+    justify-self: center;
+    margin-left: 650px;
+}
+.button
+{
+    background-color: hsl(203, 76%, 45%); 
+    border: white; 
+    border-radius: 5px;
+    color: white; 
+    padding: 20px 34px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 20px; 
+    margin: 4px 2px;
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+    margin-left: 650px;
+}
+a{
+  justify-self: center;
+  align-self: center;
+
+
 }
 
 img{
@@ -25,14 +51,23 @@ height: auto;
 display: block;
 }
 caption{
-font-size: 12px;
-color: black;
+font-size: 20px;
+color: white;
+font-weight: bold;
 }
 .img-container{
     display: flex; /* Align images in a row */
     justify-content: center; /* Center the images */
     gap: 20px; /* Space between images */
 
+
+}
+.titleImage{
+width: 850px;
+height: 200px;
+align-self: center;
+align-content: center;
+justify-self: center;
 
 }
 .img-actual{
@@ -57,4 +92,3 @@ color: black;
   #custom {
     width: 210px; /* Custom cookie slightly larger */
   }
-
